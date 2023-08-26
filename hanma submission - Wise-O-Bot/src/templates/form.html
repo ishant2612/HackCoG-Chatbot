@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="Heading">
+        <h2>Decision Maker</h2>
+    </div>
+    <div class="formbold-main-wrapper">
+        <form method="post">
+            {% csrf_token %}
+            r1 : <input type="text" name="r1">
+            r2 : <input type="text" name="r2">
+            r3 : <input type="text" name="r3">
+            <button type="submit"> Submit </button>
+        </form>
+        <h1>{{r}}</h1>
+      </div>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          font-family: "Inter", sans-serif;
+        }
+        h2{
+            text-align: center;
+            margin-top: 0;
+            padding: 20px 0;
+        }
+      </style>
+    
+</body>
+</html>
