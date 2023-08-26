@@ -1,1 +1,0 @@
-# Hanma - IIIT Delhi Hackcog Submission
